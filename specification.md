@@ -31,7 +31,7 @@ List of dictionaries which contain keys ``name`` and ``level``, like so:
 
 ```json
 {
-    classes: [
+    "classes": [
         {
             "name": "Barbarian",
             "level": 4
@@ -46,7 +46,7 @@ A list of strings. Example:
 
 ```json
 {
-    subclasses: [
+    "subclasses": [
         "Gloom Stalker",
         "Beastmaster"
     ]
