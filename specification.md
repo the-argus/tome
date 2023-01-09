@@ -5,6 +5,12 @@ highlighting and linting. At the root of the JSON object is a dictionary,
 containing four keys: [``metadata``](#metadata), [``inputs``](#inputs),
 ``events`` and ``decisions``.
 
+## page
+
+A ``.page`` file is a partial tome: it contains only some of the keys mentioned
+in the above section. This allows for a class author to define [``decision_trees``](#decision-trees)
+and distribute that as a page file for players to use in their characters.
+
 ___
 
 ## metadata
