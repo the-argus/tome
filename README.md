@@ -21,7 +21,9 @@ sheet doesn't show that breakdown.
 4. Future compatibility between various D&amp;D tools, like a GUI character
 creator or a combat tracker.
 
-## specifications
+## specification outline
+
+For full specifications, check out [specification.md](./specification.md)
 
 The structure of a tome file for a character looks something like the following.
 Note this is a description of the structure and an actual tome file does not
@@ -60,7 +62,9 @@ decisions []
     }
 ```
 
-Then, using this first file, an output file can be built:
+Using this file, you can determine what equipment your character has, features,
+etc. For example, you could use the first file to build an output file like
+this:
 
 ```txt
 outputs
